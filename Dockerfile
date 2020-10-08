@@ -29,7 +29,7 @@ RUN npm install
 RUN npm install forever -g
 RUN chmod +x /start_glass.sh
 
-VOLUME ["/var/log/dhcp","/etc/dhcp/"]
+VOLUME ["/var/lib/dhcp","/etc/dhcp/"]
 
 EXPOSE 3000 67 68
 
