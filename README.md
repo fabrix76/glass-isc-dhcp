@@ -7,6 +7,9 @@ It's stable, it's versatile, but it is really outdated, without a gui (yes, toda
 It's really simple, deploy your container and add two volumes:
 * /var/lib/dhcp where you can find lease database
 * /etc/dhcp where there are configuration files
+
+Web UI is available at port 3000
+
 Just for initial setup you can use standard dhcpd.conf and dhcpd6.conf files, I use directory binding so i have them in a host filesystem for initial setup.
 
 Please, fell free to give me your feedback
